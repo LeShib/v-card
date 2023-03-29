@@ -15,6 +15,7 @@ body{
     padding: 20px 0;
     font-size: 25px;
     justify-content: space-around;
+    margin-left: 50px;
 }
 .grid-item1 {
     padding: 20px;
@@ -36,7 +37,7 @@ body{
 
 }
 .imgPP{
-    width: 300px;
+    width: 350px;
 }
 .grid-item3 {
     padding: 20px;
