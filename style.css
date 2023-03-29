@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    color: white;
+}
+.box-container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.grid-container > div{
+    padding: 20px 0;
+    font-size: 25px;
+    justify-content: space-around;
+}
+.box-item1, .box-item2, .box-item3, .box-item4{
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    background-color: grey;
+    border: 2px black solid;
+    margin: auto;
+}
+.box-item1{
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+}
+.box-item2{
+    margin-right: 50px;
+    padding-top: 29px;
+    padding-left: 115px;
+    padding-bottom: 29px;
+    padding-right: 115px;
+}
+.box-item3{
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 107px;
+    padding-bottom: 20px;
+    padding-right: 107px;
+}
+.box-item4{
+    margin-right: 50px;
+    padding-top: 40px;
+    padding-left: 156px;
+    padding-bottom: 40px;
+    padding-right: 156px;
+}
+
+.imgPP{
+    width: 300px;
+}
+.imgHTML, .imgPHP, .imgCSS, .imgJS{
+    width: 50px;
+}
+.imgGithub, .imgLinkedin{
+    width: 30px;
+}
+.grid-item1 {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1 / 2;
+    background-color: grey;
+    border: 2px black solid;
+}
+.grid-item2{
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 2 / 3;
+    background-color: grey;
+    border: 2px black solid;
+
+}
+.grid-item3 {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    grid-row: 3;
+    grid-column: 1 / 2;
+    background-color: grey;
+    border: 2px black solid;
+}
+.grid-item4 {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    grid-row: 3;
+    grid-column: 2 / 3;
+    background-color: grey;
+    border: 2px black solid;
+}
